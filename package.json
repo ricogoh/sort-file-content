@@ -1,0 +1,20 @@
+{
+    "name": "sort-file-content",
+    "version": "1.0.0",
+    "description": "Sort file line content",
+    "main": "index.js",
+    "scripts": {
+        "test": "node example.js"
+    },
+    "keywords": [
+        "sort",
+        "file",
+        "content"
+    ],
+    "author": "Rico Goh",
+    "license": "MIT",
+    "dependencies": {
+        "sort-asc": "0.2.0",
+        "sort-desc": "0.2.0"
+    }
+}
