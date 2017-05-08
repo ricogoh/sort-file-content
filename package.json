@@ -1,10 +1,19 @@
 {
     "name": "sort-file-content",
     "version": "1.0.0",
-    "description": "Sort file line content",
+    "description": "Sort file content line ascending or descending",
     "main": "index.js",
+    "dependencies": {
+        "sort-asc": "0.2.0",
+        "sort-desc": "0.2.0"
+    },
+    "devDependencies": {},
     "scripts": {
         "test": "node example.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ricogoh/sort-file-content.git"
     },
     "keywords": [
         "sort",
@@ -13,8 +22,8 @@
     ],
     "author": "Rico Goh",
     "license": "MIT",
-    "dependencies": {
-        "sort-asc": "0.2.0",
-        "sort-desc": "0.2.0"
-    }
+    "bugs": {
+        "url": "https://github.com/ricogoh/sort-file-content/issues"
+    },
+    "homepage": "https://github.com/ricogoh/sort-file-content#readme"
 }

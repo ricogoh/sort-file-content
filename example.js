@@ -1,8 +1,8 @@
 var sortFileContent = require('./')
 
 try {
-    var asc = sortFileContent('README.md')
-    var desc = sortFileContent('README.md', 'desc')
+    var asc = sortFileContent('example.txt')
+    var desc = sortFileContent('example.txt', 'desc')
 
     console.log('######### Ascending #########')
     console.log(asc)
